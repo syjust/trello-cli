@@ -15,9 +15,15 @@
     "cli"
   ],
   "author": "Michael Heap <m@michaelheap.com>",
-  "contributors" : [
-    { "name" : "Marek Skrobacki", "email" : "skrobul@skrobul.com" },
-    { "name" : "Simon Kittle", "email" : "simon@kittle.co.uk" }
+  "contributors": [
+    {
+      "name": "Marek Skrobacki",
+      "email": "skrobul@skrobul.com"
+    },
+    {
+      "name": "Simon Kittle",
+      "email": "simon@kittle.co.uk"
+    }
   ],
   "license": "BSD",
   "dependencies": {
@@ -32,5 +38,10 @@
   },
   "bin": {
     "trello": "./bin/trello"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.0",
+    "sinon": "^1.17.5"
   }
 }
